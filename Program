@@ -1,0 +1,20 @@
+#include<stdio.h>
+int a=0;
+int b=0;
+int n=0;
+int m=0;
+void print_triangle()
+{
+m=n;
+for(a=0;a<m;a++)
+{for(b=0;b<=a;b++)
+{printf("*");}
+printf("\n");
+}
+}
+void main()
+{printf("Enter the number of times you want to print the pattern: \n");
+scanf("%d",&n);
+print_triangle();
+getch();
+}
